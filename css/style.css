@@ -1,7 +1,7 @@
 /* <--------------------------->
         Google fonts  
    <--------------------------->*/
-   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@500;600;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap');
 
    /* 
    font-family: 'Inter', sans-serif;
@@ -118,4 +118,66 @@ nav .logo a{
 }
 .company-logo img{
   padding: 10px;
+}
+
+/* <--------------------------->
+        Popular-Product
+   <--------------------------->*/
+.popular-collection .row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  justify-items: center;
+}
+
+.popular-collection-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin: 50px 0;
+}
+.popular-collection img{
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+  padding: 15px;
+}
+.product.shadow{
+  max-width:300px;
+  height: 430px;
+  box-shadow: 15px 5px 80px rgb(212, 179, 179);
+  border-radius: 5px;
+}
+.product-info{
+  padding-left: 15px;
+}
+.product-title h3{
+  font-size: 28px;
+  color: #18191F;
+}
+span.price{
+  font-size: 24px;
+  color: #000000;
+  opacity: 87%;
+}
+.fa-star,
+.fa-star-half-alt{
+  font-size: 12px;
+  color: #FB8200;
+}
+span.rating{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5E6366;
+  opacity: 80%;
+  padding-left: 10px;
+}
+p.product-description{
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #787885;
+  line-height: 25px;
 }
