@@ -4,11 +4,23 @@
 @media screen and (max-width: 667px){
   #product-column{
     grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 10;
   }
   .product.shadow{
-    max-width:300px;
-    height: 430px;
+    width:95%;
+    height: 100%;
+    padding: 10px 0;
+    box-shadow: 15px 5px 80px rgb(212, 179, 179);
+    border-radius: 5px;
+  }
+
+  nav{
+    justify-content: center;
+  }
+  .nav-right{
+    display: none;
+  }
+  .hero:hover.hero img{
+    transform: scale(1.1) rotate(15deg);
   }
 }
 

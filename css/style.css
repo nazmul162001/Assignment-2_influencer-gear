@@ -29,17 +29,6 @@ body{
 a{
   text-decoration: none;
 }
-a.button-style{
-  padding: 5px 20px;
-  background-color: var(--button-bg-color);
-  color: #ffffff;
-  border-radius:15px;
-  margin-top: 5px;
-  display: inline-block;
-}
-span.button{
-  padding-left: 5px;
-}
 p{
   font-size: 16px;
   color: var(--main-color);
@@ -82,6 +71,14 @@ nav .logo a{
 /* <--------------------------->
         Hero-Section 
    <--------------------------->*/
+
+.hero img{
+  transition: transform 1s ease;
+}
+.hero:hover.hero img{
+  transform-origin: center;
+  transform: scale(1.2) rotate(25deg);
+}
    
 .hero .row{
   display: grid;
@@ -102,13 +99,28 @@ nav .logo a{
 .hero p{
   margin: 15px 0;
 }
+a.button-style{
+  padding: 5px 20px;
+  background-color: var(--button-bg-color);
+  color: #ffffff;
+  border-radius:15px;
+  margin-top: 5px;
+  display: inline-block;
+}
+a.button-style:hover .fa-long-arrow-alt-right{
+  transform: translate(8px);
+  transition:all 0.2s ease-in;
+}
+span.button{
+  padding-left: 5px;
+}
 /* <--------------------------->
         Company-logo 
    <--------------------------->*/
 
 .company{
-  border-top: 2px solid rgba(128, 128, 128, 0.233);
-  border-bottom: 2px solid rgba(128, 128, 128, 0.233);
+  border-top: 2px solid rgba(128, 128, 128, 0.082);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.082);
   padding: 15px 0;
 }
 .company-logo .company{
@@ -139,14 +151,18 @@ nav .logo a{
   margin: 50px 0;
 }
 .popular-collection img{
-  width: 300px;
-  height: 256px;
+  width: 100%;
   border-radius: 5px;
   padding: 15px;
+  transition: transform 0.5s;
+}
+.product:hover.product img{
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .product.shadow{
-  max-width:300px;
-  height: 430px;
+  width:325px;
+  height: 470px;
   box-shadow: 15px 5px 80px rgb(212, 179, 179);
   border-radius: 5px;
 }
