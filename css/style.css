@@ -31,7 +31,7 @@ a{
 }
 a.button-style{
   padding: 5px 20px;
-  background-color: var(--button-color);
+  background-color: var(--button-bg-color);
   color: #ffffff;
   border-radius:15px;
   margin-top: 5px;
@@ -50,7 +50,8 @@ li{
 }
 :root{
   --main-color:#3A3A3A;
-  --button-color:#E02C6D;
+  --button-bg-color:#E02C6D;
+  --button-text-color:#E02C6D;
 }
 
 
@@ -180,4 +181,46 @@ p.product-description{
   font-weight: 700;
   color: #787885;
   line-height: 25px;
+}
+.see-more-btn{
+  text-align: right;
+  font-size:16px;
+  color: var(--button-text-color);
+  opacity: 87%;
+  margin: 15px 35px 0 0;
+  cursor: pointer;
+}
+
+/* <--------------------------->
+        Bonus section
+   <--------------------------->*/
+
+
+/* <--------------------------->
+          Footer
+   <--------------------------->*/
+
+footer{
+  background-color: #0A0826;
+  text-align: center;
+}
+footer .row{
+  padding: 30px 0;
+}
+footer h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;  
+}
+footer p{
+  font-size: 14px;
+  font-weight: 700;
+  color: #D9DBE1;
+}
+footer .fab{
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  background-color:#ffffff23;
+  margin: 5px;
 }
