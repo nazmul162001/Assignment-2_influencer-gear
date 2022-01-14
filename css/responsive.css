@@ -12,7 +12,6 @@
     box-shadow: 15px 5px 80px rgb(212, 179, 179);
     border-radius: 5px;
   }
-
   nav{
     justify-content: center;
   }
@@ -22,6 +21,9 @@
   .hero:hover.hero img{
     transform: scale(1.1) rotate(15deg);
   }
+  /* .testimonial .row{
+    grid-template-columns: repeat(1,1fr);
+  } */
 }
 
 
@@ -38,5 +40,12 @@
   }
   .popular-collection .row{
     grid-template-columns: repeat(2,1fr);
+  }
+  .testimonial .row{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+  }
+  .hero:hover.hero img{
+    transform: scale(1.1) rotate(15deg);
   }
 }

@@ -208,9 +208,40 @@ p.product-description{
 }
 
 /* <--------------------------->
-        Bonus section
+    Testimonial / Bonus section
    <--------------------------->*/
+.testimonial .row{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.testimonial-info{
+  text-align: center;
+  line-height: 50px;
+}
+.testimonial-title{
+  font-size: 16px;
+  color: orange;
+  font-weight: 700;
+}
+.testimonial-heading{
+  font-size: 40px;
+  color: var(--main-color);
+  padding-bottom: 20px;
+}
+.clients{
+  box-shadow:5px 5px 20px rgba(212, 179, 179, 0.534) ;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 20px;
+  padding: 10px;
+  transition: transform 0.3s;
+}
 
+.clients img{
+  width:70px;
+  height: 70px;
+  border-radius: 50%;
+}
 
 /* <--------------------------->
           Footer
