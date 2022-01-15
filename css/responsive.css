@@ -21,9 +21,10 @@
   .hero:hover.hero img{
     transform: scale(1.1) rotate(15deg);
   }
-  /* .testimonial .row{
-    grid-template-columns: repeat(1,1fr);
-  } */
+  .hero h1{
+    font-size: 45px;
+  }
+
 }
 
 
