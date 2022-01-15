@@ -77,7 +77,7 @@ nav .logo a{
 }
 .hero:hover.hero img{
   transform-origin: center;
-  transform: scale(1.2) rotate(25deg);
+  transform: scale(1.2) rotate(10deg);
 }
    
 .hero .row{

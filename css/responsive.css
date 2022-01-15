@@ -19,7 +19,7 @@
     display: none;
   }
   .hero:hover.hero img{
-    transform: scale(1.1) rotate(15deg);
+    transform: scale(1.1) rotate(10deg);
   }
   .hero h1{
     font-size: 45px;
@@ -47,6 +47,6 @@
     grid-gap: 20px;
   }
   .hero:hover.hero img{
-    transform: scale(1.1) rotate(15deg);
+    transform: scale(1.1) rotate(10deg);
   }
 }
