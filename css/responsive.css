@@ -2,6 +2,13 @@
 
 /* For Mobile Device */
 @media screen and (max-width: 667px){
+  .hero .row{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+  }
+  .hero .content-left{
+    text-align: center;
+  }
   #product-column{
     grid-template-columns: repeat(1,1fr);
   }
@@ -24,13 +31,17 @@
   .hero h1{
     font-size: 45px;
   }
+  .testimonial .row{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px;
+  }
 
 }
 
 
 
 /* For Tablet Device */
-@media screen and (max-width: 992px){
+@media screen and (min-width: 668px) and (max-width:992px){
   .hero .row{
     grid-template-columns: repeat(1,1fr);
     justify-items: center;

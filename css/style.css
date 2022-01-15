@@ -88,6 +88,7 @@ nav .logo a{
 .hero .content{
   display: flex;
   align-items: center;
+  padding: 0 15px;
 }
 .hero h1{
   font-size: 52px;
@@ -229,7 +230,7 @@ p.product-description{
   padding-bottom: 20px;
 }
 .clients{
-  box-shadow:5px 5px 20px rgba(212, 179, 179, 0.534) ;
+  box-shadow:5px 5px 20px rgba(87, 81, 81, 0.726) ;
   border-radius: 10px;
   text-align: center;
   padding: 20px 20px;
