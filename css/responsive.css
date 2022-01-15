@@ -18,7 +18,7 @@
   .nav-right{
     display: none;
   }
-  .hero:hover.hero img{
+  .hero img:hover{
     transform: scale(1.1) rotate(10deg);
   }
   .hero h1{
@@ -46,7 +46,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
   }
-  .hero:hover.hero img{
+  .hero img:hover{
     transform: scale(1.1) rotate(10deg);
   }
 }
